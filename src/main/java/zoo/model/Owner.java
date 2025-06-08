@@ -1,4 +1,4 @@
-package zoo;
+package zoo.model;
 
 import java.util.Objects;
 

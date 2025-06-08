@@ -1,6 +1,6 @@
-package zoo;
+package zoo.model;
 
-abstract class Animal {
+public abstract class Animal {
     private String animalName;
     private Owner owner;
 
