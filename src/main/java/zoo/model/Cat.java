@@ -1,6 +1,8 @@
-package zoo;
+package zoo.model;
 
-public class Cat extends Animal{
+import zoo.model.Animal;
+
+public class Cat extends Animal {
     public Cat(String animalName, Owner owner) {
         super(animalName, owner);
     }
