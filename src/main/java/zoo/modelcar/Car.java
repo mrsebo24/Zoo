@@ -24,4 +24,12 @@ public class Car {
     public void setCapacityInCm3(String capacityInCm3) {
         this.capacityInCm3 = capacityInCm3;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "carMake='" + carMake + '\'' +
+                ", capacityInCm3='" + capacityInCm3 + '\'' +
+                '}';
+    }
 }
