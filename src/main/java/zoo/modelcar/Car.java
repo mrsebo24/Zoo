@@ -8,4 +8,20 @@ public class Car {
         this.carMake = carMake;
         this.capacityInCm3 = capacityInCm3;
     }
+
+    public String getCarMake() {
+        return carMake;
+    }
+
+    public void setCarMake(String carMake) {
+        this.carMake = carMake;
+    }
+
+    public String getCapacityInCm3() {
+        return capacityInCm3;
+    }
+
+    public void setCapacityInCm3(String capacityInCm3) {
+        this.capacityInCm3 = capacityInCm3;
+    }
 }
